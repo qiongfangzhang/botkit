@@ -3,6 +3,16 @@ Botkit is designed to ease the process of designing and running useful, creative
 Botkit features a comprehensive set of tools to deal with Cisco Jabber, and allows developers to build interactive bots and applications that send and receive messages just like real humans.
 This document covers the Cisco Jabber-specific implementation details only.
 
+Table of Contents
+
+* [Getting Started](#getting-started)
+* [Working with Cisco Jabber](#working-with-cisco-jabber)
+* [Bot Options](#bot-options)
+* [Jabber Specific Events](#jabber-specific-events)
+* [Message Formatting](#message-formatting)
+* [Extensible Messaging and Presence Protocol – API for jabber bot](#extensible-messaging-and-presence-protocol–API-for-jabber-bot)
+
+
 ## Getting Started ##
 - Install Botkit
 - Ask admin to create a Jabber user for the bot in either Cisco IM&Presence Server (on-premise deployment) or Cisco Webex Messenger (cloud deployment), then get the jid and password from the admin.
