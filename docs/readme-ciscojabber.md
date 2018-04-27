@@ -10,7 +10,7 @@ Table of Contents
 * [Bot Options](#bot-options)
 * [Jabber Specific Events](#jabber-specific-events)
 * [Message Formatting](#message-formatting)
-* [Extensible Messaging and Presence Protocol – API for jabber bot](#extensible-messaging-and-presence-protocol-api-for-jabber-bot)
+* [Extensible Messaging and Presence Protocol](#extensible-messaging-and-presence-protocol)
 
 
 ## Getting Started ##
@@ -328,7 +328,7 @@ Below is an example
     });
 ~~~
 
-## Extensible Messaging and Presence Protocol - API for jabber bot ##
+## Extensible Messaging and Presence Protocol ##
 Jabber bot uses node-xmpp to connect to Cisco Unified IM & Presence server or Cisco WebEx Messenger and can only use the password authentication methods. The bot is relying on starndard XMPP protocol to send/receive messages. You can refer to [RFC6120](https://tools.ietf.org/html/rfc6120) and [RFC6121](https://tools.ietf.org/html/rfc6121) to learn more about how to connect to XMPP server and how to create the XMPP message stanza. 
 Below is an example for an xmpp message stanza with HTML payload. The bot developer can use this kind of message stanza to implement the functions.
 
